@@ -39,7 +39,7 @@ header{
 
 .menu{
     padding-top: 30px;
-    margin-left: 50%;
+    margin-left: 80%;
     text-align: right;
 }
 
@@ -58,30 +58,24 @@ section.sobre{
 
 .extras{
     position: absolute;
-    bottom: -800px;
+    bottom: -450px;
     right: -500px;
-    width: 1000px;
-    height: 1000px;
+    width: 1300px;
+    height: 1300px;
     border-radius: 50%;
     background-color: #017143;
 }
 
 .sobre .extras img{
-    width: 28%;
-    position: absolute;
-    margin-left: 100px;
+    width: 43%;
+    position: static;
+    margin-left: 15px;
 }
 
 .social-media{
     position: absolute;
-    display: flex;
-    gap: 20px;
-    flex-direction: column;
-    color: white;
-    font-size: 30px;
     right: 510px;
     top: 200px;
-    cursor: pointer;
 }
 
 .social-media img{
@@ -95,7 +89,7 @@ section.sobre{
 }
 
 .texto-sobre h1{
-    font-size: 50px;
+    font-size: 60px;
 }
 
 .texto-sobre p{
@@ -103,18 +97,15 @@ section.sobre{
     color: black;
     font-size: 15px;
     font-weight: bold;
-    max-width: 645px;
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 15px;
+    max-width: 640px;
 }
 
 .texto-sobre button{
     border: 0;
     background-color: #017143;
     color: white;
-    font-weight: bold;
     border-radius: 10px;
     width: 170px;
-    height: 35px;
+    height: 30px;
     cursor: pointer;
 }
