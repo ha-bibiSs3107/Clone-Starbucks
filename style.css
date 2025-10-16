@@ -8,9 +8,10 @@
 .center{
     display: flex;
     flex-wrap: wrap;
-    max-width: 1288px;
+    max-width: 1800px;
     margin: 0 auto;
     padding: 0 2%;
+    margin-left: 150px;
 }
 
 html,body{
@@ -21,16 +22,25 @@ html,body{
 
 header{
     height: 200px;
+    position: relative;
     padding: 20px 0;
+    min-height: 140px;
 }
 
 .logo{
-    width: 50%;
+    position: absolute;
+    top: 23px;
+    left: 160px;
+}
+
+.logo img{
+    width: 110px;
+    display: block;
 }
 
 .menu{
     padding-top: 30px;
-    width: 50%;
+    margin-left: 70%;
     text-align: right;
 }
 
@@ -39,6 +49,7 @@ header{
     text-decoration: none;
     font-weight: bold;
     margin-right: 15px;
+    display: inline-block;
 }
 
 section.sobre{
@@ -48,7 +59,7 @@ section.sobre{
 
 .extras{
     position: absolute;
-    bottom: -450px;
+    bottom: -600px;
     right: -500px;
     width: 1200px;
     height: 1200px;
@@ -56,15 +67,27 @@ section.sobre{
     background-color: #017143;
 }
 
+.sobre .extras img{
+    width: 30%;
+    position: absolute;
+    margin-left: 100px;
+}
+
 .social-media{
     position: absolute;
+    display: flex;
+    gap: 20px;
+    flex-direction: column;
+    color: white;
+    font-size: 30px;
     right: 510px;
     top: 200px;
+    cursor: pointer;
 }
 
 .social-media img{
     display: block;
-    width: 20px;
+    width: 30px;
     margin-top: 20px 0;
 }
 
@@ -73,23 +96,26 @@ section.sobre{
 }
 
 .texto-sobre h1{
-    font-size: 50px;
+    font-size: 60px;
 }
 
 .texto-sobre p{
-    margin: 20px 0;
+    margin: 30px 0;
     color: black;
-    font-size: 14px;
+    font-size: 15px;
     font-weight: bold;
-    max-width: 800px;
+    max-width: 645px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
 }
 
 .texto-sobre button{
     border: 0;
     background-color: #017143;
     color: white;
+    font-weight: bold;
     border-radius: 10px;
-    width: 100px;
-    height: 30px;
+    width: 170px;
+    height: 35px;
     cursor: pointer;
 }
